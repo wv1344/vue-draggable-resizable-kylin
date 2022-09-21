@@ -257,6 +257,7 @@ export default {
 
   data: function () {
     return {
+      bounds: null,
       left: this.x,
       top: this.y,
       right: null,
@@ -379,6 +380,9 @@ export default {
       }
 
       return [null, null]
+    },
+    updateDragLimit(){
+      this.bounds = calcDragLimits()
     },
     // 元素触摸按下
     elementTouchDown (e) {

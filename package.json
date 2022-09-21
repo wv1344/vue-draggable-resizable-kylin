@@ -1,6 +1,6 @@
 {
-  "name": "vue-draggable-resizable-gorkys",
-  "version": "2.4.8",
+  "name": "vue-draggable-resizable-kylin",
+  "version": "2.4.9",
   "author": "Maurizio Bonani <maurizio.bonani@gmail.com>",
   "main": "dist/VueDraggableResizable.umd.min.js",
   "unpkg": "dist/VueDraggableResizable.umd.min.js",
