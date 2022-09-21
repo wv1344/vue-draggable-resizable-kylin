@@ -381,8 +381,8 @@ export default {
 
       return [null, null]
     },
-    updateDragLimit(){
-      this.bounds = calcDragLimits()
+    updateDragLimit () {
+      this.bounds = this.calcDragLimits()
     },
     // 元素触摸按下
     elementTouchDown (e) {
